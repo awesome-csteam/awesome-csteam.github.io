@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head>
+<title>publication</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<!--[if IE 6]>
+<link rel="stylesheet" href="css/ie6.css" type="text/css" media="all" />
+<![endif]-->
+<link rel="stylesheet" href="js/fancybox/jquery.fancybox-1.3.1.css" type="text/css" media="screen" />
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.jcarousel.js"></script>
+<script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.1.js"></script>
+<script type="text/javascript" src="js/jquery-func.js"></script>
+</head>
+<body>
+<!-- START PAGE SOURCE -->
+<div id="shell">
+  <div id="header" class="big-box">
+    <div class="bg-bottom">
+      <h1 id="logo"><a href="#">AWESOME</a></h1>
+      <div id="search">
+        <form action="#" method="post">
+          <fieldset>
+          <input type="text" name="string" value="" class="field" />
+          <input type="submit" value="SEARCH" class="submit" />
+          </fieldset>
+        </form>
+      </div>
+      <div class="cl">&nbsp;</div>
+    </div>
+  </div>
+  <div id="navigation">
+    <ul>
+      <li><a href="#" class="active"><span>home</span></a></li>
+      <li><a href="#"><span>Code & Dataset</span></a></li>
+      <li><a href="#"><span>Related Publications</span></a></li>
+      <!-- <li><a href="#"><span>LinkedIn</span></a></li> -->
+      <li><a href="#"><span>GUI</span></a></li>
+      <li><a href="#"><span>contact</span></a></li>
+    </ul>
+    <div class="cl">&nbsp;</div>
+  </div>
+  <div id="main" class="big-box">
+    <div class="bg-top">
+      <div class="bg-bottom">
+        <div id="big-slider" class="slider">
+          <a href="#" class="slider-link">View</a> </div>
+        <div id="top" class="text-block">        
+          <div id="content" class="box">
+            <h3>Malicious Behavior Detection based on Extracted Features from
+              APIs for Windows Platforms. </h3>
+            <p>Dima Rabadi, Kar Wai Fok, Zhongmin Dai, Teo Sin Gee</p>
+            <p style="font-family:verdana"> DYnamic and Novel Advances in Machine
+              Learning and Intelligent Cyber Security
+              Workshop
+              (DYNAMICS) San Juan, Puerto Rico,
+              December 9th and 10th, 2019</p>
+            <p><a href="https://oar.a-star.edu.sg/jspui/handle/123456789/3286">Publication Page</a></p>
+            <p>ABSTRACT:
+              Many malicious behavior detection approaches rely on dynamic features
+              that are extracted from Application Programming Interfaces
+              (APIs), which represent the run-time behavior of programs. Most
+              API-based malicious behavior detection techniques highly focus on
+              measuring the statistical features of API calls such as finding the
+              frequency (e.g., how many times a specific API is called) or recognizing
+              the sequence pattern of API calls. However, such detectors
+              can be easily evaded and bypassed by malware authors who would
+              interrupt the sequence by basically hooking and shufiing the API
+              calls or deleting/inserting the irrelevant calls. Also, most proposed
+              API-based malicious behavior detectors would either consider only
+              the API calls (e.g., function names) without taking into account
+              their arguments information (e.g., function parameters) or incur
+              a prohibitive cost, such as requiring complex operations to deal
+              with the arguments (e.g., proficient knowledge about the types of
+              the arguments and/or powerful computers to extract them). As
+              relying on API calls alone is insuficient to understand the purpose
+              of the program, we propose a low-cost malicious behavior detection
+              approach that can extract APIs dynamic features by studying the
+              API calls together with their arguments using machine learning.
+              Experimental results show that our approach achieves an accuracy
+              of over 98.24% with two difierent datasets, and outperforms the
+              state-of-the-art malicious behavior detection techniques.</p>
+          </div>
+          <img ALIGN="right" src="C:\Users\dimadsr\Desktop\awesome website\awesome-csteam.github.io\css\images\paper1.png" alt="paper1" width="250"
+          height="200">
+          <div id="content" class="box">
+            <h3>Advanced Windows Methods on Malware
+              Detection and Classification.</h3>
+            <p>Dima Rabadi, Teo Sin Gee</p>
+            <p style="font-family:verdana"> Annual Computer Security Applications
+              Conference (ACSAC 2020), December 7–11, 2020, Austin, USA. ACM, New
+              York, NY, USA</p>
+            <p><a href="https://www.researchgate.net/profile/Dima_Rabadi2/publication/347766553_Advanced_Windows_Methods_on_Malware_Detection_and_Classification/links/5ff1510292851c13fee30562/Advanced-Windows-Methods-on-Malware-Detection-and-Classification.pdf">Publication Page</a></p>
+            <p>ABSTRACT: Application Programming Interfaces (APIs) are still considered the standard accessible data source and core wok of the most widely
+adopted malware detection and classification techniques. API-based malware detectors highly rely on measuring API’s statistical features, such as calculating the frequency counter of calling specific
+API calls or finding their malicious sequence pattern (i.e., signaturebased detectors). Using simple hooking tools, malware authors
+would help in failing such detectors by interrupting the sequence and shuffling the API calls or deleting/inserting irrelevant calls
+(i.e., changing the frequency counter). Moreover, relying on API calls (e.g., function names) alone without taking into account their
+function parameters is insufficient to understand the purpose of the program. For example, the same API call (e.g., writing on a
+file) would act in two ways if two different arguments are passed (e.g., writing on a system versus user file). However, because of the
+heterogeneous nature of API arguments, most of the available APIbased malicious behavior detectors would consider only the API
+calls without taking into account their argument information (e.g., function parameters). Alternatively, other detectors try considering the API arguments in their techniques, but they acquire having proficient knowledge about the API arguments or powerful processors
+to extract them. Such requirements demand a prohibitive cost and complex operations to deal with the arguments. To overcome the
+above limitations, with the help of machine learning and without any expert knowledge of the arguments, we propose a light-weight
+API-based dynamic feature extraction technique, and we use it to implement a malware detection and type classification approach.
+To evaluate our approach, we use reasonable datasets of 7774 benign and 7105 malicious samples belonging to ten distinct malware
+types. Experimental results show that our type classification module could achieve an accuracy of 98.0253 %, where our malware
+detection module could reach an accuracy of over 99.8992 %, and
+outperforms many state-of-the-art API-based malware detectors.</p>
+          </div>
+          <img ALIGN="left" src="C:\Users\dimadsr\Desktop\awesome website\awesome-csteam.github.io\css\images\paper2.png" alt="paper2" width="250"
+          height="200">
+  <div id="footer">
+    <p class="left">Copyright &copy; 2010 <a href="#">Domain Name</a> - All Rights Reserved</p>
+    <p class="right"><a href="http://all-free-download.com/free-website-templates/">Free CSS Templates</a> by <a href="http://chocotemplates.com/">ChocoTemplates.com</a></p>
+    <div class="cl">&nbsp;</div>
+  </div>
+</div>
+<!-- END PAGE SOURCE -->
+<!-- <div align=center>This template  downloaded form <a href='http://all-free-download.com/free-website-templates/'>free website templates</a></div> -->
+</body>
+</html>
